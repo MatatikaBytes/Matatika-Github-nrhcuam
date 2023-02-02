@@ -1,6 +1,6 @@
 version: pipelines/v0.1
 name: GitHub
-timeout: 0
+timeout: 3600
 script: |-
   meltano install extractor tap-github
   meltano install loader target-postgres
